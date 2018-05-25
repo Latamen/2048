@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import Leaderboard from '@/components/Leaderboard'
+import Gameboard from '@/components/Gameboard'
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/leaderboard',
-      name: 'Leaderboard',
-      component: Leaderboard
+      path: '/gameboard',
+      name: 'Gameboard',
+      component: Gameboard
     }
   ]
 })
